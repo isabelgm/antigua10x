@@ -1,0 +1,171 @@
+/* ========================================================================
+   Junto Studios's custom styles
+   ========================================================================== */
+
+// Overall
+$black: #525151;
+$magenta: #e41875;
+$orange: #f9b150;
+$grey: #f2f2f2;
+
+body, html { height: 100%; width: 100%; font-size: 15px; }
+
+@media (max-width: 767px) {
+  body, html { height: 100%; width: 100%; font-size: 12px; }
+}
+
+body {
+  background-color: #fff;
+  color: $black;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+}
+
+// Spacing
+
+section {
+  padding: 5rem 0;
+}
+
+.centered, .center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.vertical-align-m {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.inline {
+  display: inline;
+}
+
+.block {
+  display: block;
+}
+
+// Titles
+
+h1, h2, h3, h4, h5 {
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0 0 1rem 0;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+// Paragraph & Typographic
+p {
+  font-size: 1.25rem;
+  margin: 0 0 1rem 0;
+}
+
+.lead {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.white-text {
+  h1, h2, h3, h4, a, a:hover, p, li {
+    color: white;
+  }
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.normal-weight {
+  font-weight: normal;
+}
+
+.italic, .italics {
+  font-style: italic;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.regular-weight {
+  font-weight: 500;
+}
+
+.light-weight, .lead.light-weight {
+  font-weight: 300;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  h1, h2, h3, h4, a, p, li {
+    text-transform: uppercase;
+  }
+}
+
+.list-style-none {
+  list-style-type: none;
+}
+
+.magenta {
+  color: $magenta;
+}
+
+.white {
+  color: white;
+}
+
+// Links
+a {
+  color: $black;
+  word-wrap: break-word;
+  &:hover, &:focus, &:active {
+    color: $black;
+  }
+}
+
+a:hover, a:focus {
+  outline: 0;
+  text-decoration: underline;
+}
+
+a:before, a:after {
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}

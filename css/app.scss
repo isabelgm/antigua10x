@@ -1,0 +1,15 @@
+---
+# The scss file which include files from _sass/
+---
+
+@charset "utf-8";
+
+@import "bootstrap";
+@import "main";
+@import "buttons";
+@import "pages";
+@import "navbar";
+@import "footer";
+
+// Misc
+@import "margins";
