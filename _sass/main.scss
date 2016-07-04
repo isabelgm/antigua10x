@@ -8,10 +8,10 @@ $magenta: #e41875;
 $orange: #f9b150;
 $grey: #f2f2f2;
 
-body, html { height: 100%; width: 100%; font-size: 15px; }
+body, html { height: 100%; width: 100%; font-size: 18px; }
 
 @media (max-width: 767px) {
-  body, html { height: 100%; width: 100%; font-size: 12px; }
+  body, html { height: 100%; width: 100%; font-size: 14px; }
 }
 
 body {
@@ -69,11 +69,11 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 5.55rem;
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2.78rem;
 }
 
 h3 {
