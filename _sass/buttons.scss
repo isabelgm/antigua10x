@@ -14,8 +14,21 @@
   user-select: none;
   white-space: nowrap;
   cursor: pointer;
+  font-weight: bold;
 
   &:hover {
     text-decoration: none;
+  }
+}
+
+.button-primary {
+  background-color: $magenta;
+  color: white;
+  font-size: 1.25rem;
+  padding: 1rem 3rem;
+  &:hover {
+    text-decoration: none;
+    color: white;
+    background-color: lighten($magenta, 5%);
   }
 }
