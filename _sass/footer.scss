@@ -1,18 +1,10 @@
 footer {
-  padding: 5px 0;
-
-  &.fixed-to-bottom {
-    @media (min-width: 768px) {
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-    }
-  }
+  padding: 2rem 0;
 
   a, p {
-    font-size: 0.9rem;
     margin: 0.25rem;
   }
+  
   @media (min-width: 768px) {
     .right {
       float: right;

@@ -1,63 +1,21 @@
-.button, .button-primary, .button-secondary {
-    display: inline-block;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    height: auto;
-    padding: 12px 15px;
-    margin: 0;
-    font-size: 1.1rem;
-    font-weight: 500;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    cursor: pointer;
-    border: none;
-    border-radius: 0;
-    background-color: #146ee1;
-}
+.button {
+  display: inline-block;
+  margin-bottom: 0;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1.43;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  cursor: pointer;
 
-.button.big {
-  padding: 1rem 2.5rem;
-  font-size: 1.25rem;
-}
-
-.button-grey {
-  background-color: #999;
-  margin-bottom: 10px;
   &:hover {
-    background-color: #999;
-  }
-}
-
-.button-primary, a.button-primary {
-  color: white;
-  background-color: $black;
-}
-
-.disabled:hover, .disabled:focus {
-  color: white;
-  text-decoration: none;
-}
-
-.social-media {
-  position: absolute;
-  right: 1rem;
-  top: 32px;
-
-  @media(max-width: 767px) {
-    margin: 5px 0;
-  }
-
-  .social-media-button {
-    max-height: 1.2rem;
-    margin: 2px;
-    @media(max-width: 767px) {
-      display: inline-block;
-    }
+    text-decoration: none;
   }
 }

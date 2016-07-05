@@ -1,28 +1,40 @@
 .navbar {
   background-color: transparent;
-  padding: 1rem;
-  padding-left: 30px;
-  margin-bottom: 0 !important;
+  padding: 15px;
   font-weight: 400;
   color: white;
   text-transform: uppercase;
   font-size: 1rem;
   border: 0;
+  margin-bottom: 0;
 
   .navbar-brand {
     padding: 0;
 
     img {
       display: inline-block;
-      max-height: 50px;
+      max-height: 80px;
     }
   }
 
   .navbar-nav > li > a {
     color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
     &:hover, &:active, &:focus {
       color: white;
       text-decoration: underline;
+    }
+
+    &.button {
+      padding-top: 13px;
+      padding-bottom: 15px;
+      margin: 10px 5px;
+      border: 2px solid;
+      &:hover {
+        background-color: rgba(0,0,0,0.35);
+        text-decoration: none;
+      }
     }
   }
 
