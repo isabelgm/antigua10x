@@ -17,4 +17,19 @@
       max-height: 50px;
     }
   }
+
+  .navbar-nav > li > a {
+    color: white;
+    &:hover, &:active, &:focus {
+      color: white;
+      text-decoration: underline;
+    }
+  }
+
+  .navbar-toggle {
+    border: 0;
+    .icon-bar {
+      background-color: white;
+    }
+  }
 }

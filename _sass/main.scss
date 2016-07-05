@@ -17,7 +17,7 @@ body, html { height: 100%; width: 100%; font-size: 18px; }
 body {
   background-color: #fff;
   color: $black;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Walsheim", "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 300;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -63,7 +63,7 @@ section {
 // Titles
 
 h1, h2, h3, h4, h5 {
-  font-weight: 700;
+  font-weight: 800;
   line-height: 1.25;
   margin: 0 0 1rem 0;
 }
@@ -142,6 +142,10 @@ p {
 
 .magenta {
   color: $magenta;
+}
+
+.orange {
+  color: $orange;
 }
 
 .white {
