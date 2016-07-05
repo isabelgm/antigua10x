@@ -21,8 +21,12 @@
 }
 
 .people {
-  img {
-    margin: 1rem 0;
+  .person {
+    margin-bottom: 1rem;
+    img {
+      border-radius: 2px;
+      margin-bottom: 1rem;
+    }
   }
 }
 
