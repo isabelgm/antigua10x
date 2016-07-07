@@ -1,7 +1,6 @@
 # Site settings
 title: Antigua10x Festival | A Doers Festival
 tagline: "10x your organization in a sustainable way."
-
-
+url: "https://isabelgm.github.io/antigua10x/"
 
 exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
