@@ -30,10 +30,8 @@
   }
 }
 
-.speakers {
-  .person {
-    height: 380px;
-  }
+#speakers .person {
+  min-height: 380px;
 }
 
 .icon {
