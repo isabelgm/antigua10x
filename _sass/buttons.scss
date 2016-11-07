@@ -32,3 +32,16 @@
     background-color: lighten($magenta, 5%);
   }
 }
+
+.button-secondary {
+  background-color: white;
+  color: $magenta;
+  border: 1px dotted $magenta;
+  font-size: 1.25rem;
+  padding: 1rem 3rem;
+  &:hover {
+    text-decoration: none;
+    color: white;
+    background-color: lighten($magenta, 5%);
+  }
+}
