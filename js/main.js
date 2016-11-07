@@ -18,3 +18,8 @@ $('#speakerModal').on('show.bs.modal', function (event) {
   modal.find('#speakerBio').text(speakerBio)
   modal.find('#speakerPhoto').attr("src",speakerPhoto)
 })
+
+$('#myTabs a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
