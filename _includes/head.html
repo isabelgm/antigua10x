@@ -8,6 +8,11 @@
   <meta name="description" content="{% if page.excerpt %}{{page.excerpt}}{% else %}{{site.tagline}}{% endif %}">
   <meta name="google-site-verification" content="Y9NMXW1fap6s-_o17SBULWOaFMVdiHWOQpJ3-DAa9-Q" />
 
+  <!-- for Facebook -->
+  <meta property="og:title" content="{{ site.title }}" />
+  <meta property="og:description" content="{% if page.excerpt %}{{page.excerpt}}{% else %}{{site.tagline}}{% endif %}" />
+  <meta property="og:image" content="img/share.jpg" />
+
   <!-- CSS & fonts -->
   <link rel="stylesheet" href="css/app.css">
 
